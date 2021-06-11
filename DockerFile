@@ -1,0 +1,4 @@
+FROM 441185900653.dkr.ecr.ap-northeast-1.amazonaws.com/nginx:latest
+
+COPY default.conf /etc/nginx/conf.d/
+COPY index.html /usr/share/nginx/html/
